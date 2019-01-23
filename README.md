@@ -31,4 +31,4 @@ x1 is individual-level covariate x2 is group covariate (same value for every per
 intercept, b1 is true slope of individual covariate, b2 is the true slope for the group covariate 
 
 
-
+Run different hybrids of multilevel and spatial models to assess the level of parameter estimation.
