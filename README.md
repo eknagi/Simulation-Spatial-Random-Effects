@@ -1,10 +1,6 @@
 # Simulating-Spatial-Dependency-Random-Effects
 
-The motivation for this topic arose due to my interest in scenarios where multilevel models could not account
-for the independence of residuals: ie, when the ICC is not same for two individual members of a group. This
-can happen due to different distances between members in an area associated with a group. Additionally,
-correlation does not necessarily stop at boundaries, but can spill over. Therefore, modelling such data as
-though they are independent will lead to biased standard errors.
+
 My goal is to simulate datasets with multilevel random effects and spatial dependencies incorporated; and
 assess and compare the fit and parameter estimation of different (pure) multilevel models, (pure) spatial
 models, and models that are a hybrid between the two.
@@ -29,6 +25,3 @@ correlation)
 εijk is the residual term (independent of the random effect term and spatial correlation term above)
 x1 is individual-level covariate x2 is group covariate (same value for every person in a group) b0 is true
 intercept, b1 is true slope of individual covariate, b2 is the true slope for the group covariate 
-
-
-Run different hybrids of multilevel and spatial models to assess the level of parameter estimation.
